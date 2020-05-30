@@ -32,7 +32,7 @@
         <!--Navbar -->
         <nav class="mb-1 navbar navbar-expand-lg navbar-dark">
             <div class="container">
-                <a class="navbar-brand" href="#">
+                <a class="navbar-brand" href="/">
                     <img src="./assets/img/brand.png" alt="">
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
@@ -161,6 +161,14 @@
                 </svg>
             </div>
         </div>
+        
+        <!-- back to top button -->
+        <div class="back-to-top" id="back-to-top">
+            <a href="/">
+                <i class="fa fa-chevron-up"></i>
+            </a>
+        </div>
+        <!-- end of to top button -->
         
     </section>
     
@@ -652,6 +660,19 @@
 	       loader.className += " hidden"; // class "loader hidden"
 	    });
 	</script>
+	
+	<!-- back to to activate when scrolling-->
+    <script>
+        $(document).scroll(function () {
+            var y = $(this).scrollTop();
+            if (y > 70) {
+                $('.back-to-top').fadeIn();
+            } else {
+                $('.back-to-top').fadeOut();
+            }
+
+        });
+    </script>
 
 </body>
 

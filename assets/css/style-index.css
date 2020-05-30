@@ -85,7 +85,32 @@ body, html {
 }
 /*-- end of loader --*/
 
+.back-to-top {
+    transition: background 0.5s;
+    position: fixed;
+    z-index: 11;
+    right: 15px;
+    bottom: 15px;
+    border-radius: 50px;
+    display: none;
+}
 
+.back-to-top i {
+    padding-top: 12px;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+    color: #000;
+    width: 44px;
+    background: #bc4158;
+    height: 44px;
+    text-align: center;
+    line-height: 1;
+    font-size: 16px;
+    border-radius: 50%;
+    position: fixed;
+    right: 15px;
+    bottom: 15px;
+    z-index: 12; 
+}
 
 /* header */
 
