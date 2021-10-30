@@ -1,4 +1,4 @@
-### Landing page design for a tech company
+### LANDING PAGE DESIGN FOR A TECH COMPANY
 
 #### Used technologies
 
